@@ -14,8 +14,14 @@ For more control over the solving process.
 
 ::: stochastic_engine.volatility.implied.ImpliedVolSolver
 
-## IV Surface
+## GARCH(1,1) Model
 
-Calculate implied volatility across multiple strikes and expirations.
+Generalized Autoregressive Conditional Heteroskedasticity model for volatility forecasting.
 
-::: stochastic_engine.volatility.implied.implied_volatility_surface
+$$
+\sigma^2_t = \omega + \alpha \epsilon^2_{t-1} + \beta \sigma^2_{t-1}
+$$
+
+::: stochastic_engine.volatility.garch.GARCH
+
+::: stochastic_engine.volatility.garch.GARCHResult

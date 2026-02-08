@@ -34,10 +34,10 @@ var = VaR(returns, confidence=0.95).historical()
 
 | Module | What's Included |
 |--------|-----------------|
-| **Processes** | GBM, Ornstein-Uhlenbeck |
-| **Pricing** | Black-Scholes (with Greeks), Monte Carlo |
+| **Processes** | GBM, Ornstein-Uhlenbeck, Heston |
+| **Pricing** | Black-Scholes (with Greeks), Monte Carlo, Binomial Trees |
 | **Risk** | VaR, CVaR, Sharpe, Sortino, Max Drawdown |
-| **Volatility** | Implied Vol Solver, IV Surface |
+| **Volatility** | Implied Vol Solver, GARCH(1,1) |
 
 ## Design Philosophy
 

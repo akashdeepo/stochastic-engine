@@ -21,6 +21,10 @@ keywords = [
     "risk-management",
     "var",
     "greeks",
+    "heston",
+    "garch",
+    "binomial-tree",
+    "implied-volatility",
 ]
 classifiers = [
     "Development Status :: 3 - Alpha",

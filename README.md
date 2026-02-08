@@ -13,7 +13,7 @@ pip install stochastic-engine
 Or install from source:
 
 ```bash
-git clone https://github.com/yourusername/stochastic-engine.git
+git clone https://github.com/akashdeepo/stochastic-engine.git
 cd stochastic-engine
 pip install -e ".[dev]"
 ```
@@ -101,6 +101,7 @@ print(f"Implied Vol: {iv:.2%}")  # ~20%
 ### Stochastic Processes
 - **GBM** - Geometric Brownian Motion (stock prices)
 - **OrnsteinUhlenbeck** - Mean-reverting process (interest rates, pairs trading)
+- **Heston** - Stochastic volatility model (volatility smile)
 
 ### Option Pricing
 - **BlackScholes** - Closed-form European options with all Greeks
@@ -108,6 +109,7 @@ print(f"Implied Vol: {iv:.2%}")  # ~20%
   - European calls/puts
   - Asian options (arithmetic & geometric)
   - Custom payoff functions
+- **BinomialTree** - CRR binomial tree for American/European options
 
 ### Risk Metrics
 - **VaR** - Historical, Parametric, Monte Carlo, Cornish-Fisher
@@ -118,7 +120,7 @@ print(f"Implied Vol: {iv:.2%}")  # ~20%
 
 ### Volatility
 - **Implied Volatility Solver** - Newton-Raphson, Bisection, Brent's method
-- **IV Surface** - Compute IV across strikes and maturities
+- **GARCH(1,1)** - Volatility forecasting with MLE fitting
 
 ## Design Philosophy
 

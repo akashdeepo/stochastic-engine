@@ -31,3 +31,15 @@ Flexible Monte Carlo engine for pricing options with simulation.
 ::: stochastic_engine.pricing.monte_carlo.MonteCarloPricer
 
 ::: stochastic_engine.pricing.monte_carlo.MCResult
+
+## Binomial Tree
+
+Cox-Ross-Rubinstein (CRR) binomial tree for American and European option pricing.
+
+::: stochastic_engine.pricing.binomial.BinomialTree
+
+### Convenience Functions
+
+::: stochastic_engine.pricing.binomial.american_put
+
+::: stochastic_engine.pricing.binomial.american_call

@@ -98,4 +98,4 @@ print(f"Implied Volatility: {iv:.2%}")  # ~20%
 ## Next Steps
 
 - Explore the [API Reference](api/processes.md) for detailed documentation
-- Check out the [Jupyter notebooks](https://github.com/yourusername/stochastic-engine/tree/main/notebooks) for more examples
+- Check out the [Jupyter notebooks](https://github.com/akashdeepo/stochastic-engine/tree/main/notebooks) for more examples

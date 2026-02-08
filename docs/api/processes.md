@@ -22,6 +22,22 @@ $$
 
 ::: stochastic_engine.processes.ornstein_uhlenbeck.OrnsteinUhlenbeck
 
+## Heston Stochastic Volatility
+
+A two-factor model where both price and volatility are stochastic. Captures the volatility smile observed in option markets.
+
+$$
+dS_t = \mu S_t \, dt + \sqrt{v_t} S_t \, dW^1_t
+$$
+
+$$
+dv_t = \kappa (\theta - v_t) \, dt + \xi \sqrt{v_t} \, dW^2_t
+$$
+
+where $dW^1_t dW^2_t = \rho \, dt$.
+
+::: stochastic_engine.processes.heston.Heston
+
 ## Base Class
 
 All processes inherit from this abstract base class.
