@@ -18,24 +18,32 @@ Example
 
 from stochastic_engine.processes.gbm import GBM
 from stochastic_engine.processes.ornstein_uhlenbeck import OrnsteinUhlenbeck
+from stochastic_engine.processes.heston import Heston
 from stochastic_engine.pricing.black_scholes import BlackScholes
 from stochastic_engine.pricing.monte_carlo import MonteCarloPricer
+from stochastic_engine.pricing.binomial import BinomialTree, american_put, american_call
 from stochastic_engine.volatility.implied import implied_volatility
+from stochastic_engine.volatility.garch import GARCH
 from stochastic_engine.risk.var import VaR
 from stochastic_engine.risk.cvar import CVaR
 from stochastic_engine.risk.metrics import sharpe_ratio, sortino_ratio, max_drawdown
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"
 
 __all__ = [
     # Processes
     "GBM",
     "OrnsteinUhlenbeck",
+    "Heston",
     # Pricing
     "BlackScholes",
     "MonteCarloPricer",
+    "BinomialTree",
+    "american_put",
+    "american_call",
     # Volatility
     "implied_volatility",
+    "GARCH",
     # Risk
     "VaR",
     "CVaR",
