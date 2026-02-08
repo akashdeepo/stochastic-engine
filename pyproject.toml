@@ -60,9 +60,10 @@ all = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/akash/stochastic-engine"
-Documentation = "https://github.com/akash/stochastic-engine#readme"
-Repository = "https://github.com/akash/stochastic-engine"
+Homepage = "https://github.com/akashdeepo/stochastic-engine"
+Documentation = "https://github.com/akashdeepo/stochastic-engine#readme"
+Repository = "https://github.com/akashdeepo/stochastic-engine"
+Issues = "https://github.com/akashdeepo/stochastic-engine/issues"
 
 [tool.hatch.build.targets.wheel]
 packages = ["stochastic_engine"]
