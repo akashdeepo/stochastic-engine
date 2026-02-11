@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "stochastic-engine"
-version = "0.3.0"
+version = "0.3.1"
 description = "A comprehensive, Pythonic quantitative finance library for stochastic processes, option pricing, and risk metrics"
 readme = "README.md"
 license = "MIT"

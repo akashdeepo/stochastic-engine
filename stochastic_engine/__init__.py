@@ -56,7 +56,7 @@ from stochastic_engine.data.market import (
     returns_from_prices,
 )
 
-__version__ = "0.3.0"
+__version__ = "0.3.1"
 
 __all__ = [
     # Processes
